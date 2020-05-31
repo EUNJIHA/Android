@@ -19,7 +19,7 @@
 
 `onResume()`: 1. 카메라 미리보기 시작
 
-`onPause()`: 1. 카메라 미리보기 정지
+`onPause()`: 1. 카메라 미리보기 정지 (다른 곳에서 사용할 수 있도록)
 
 `onStop()`: 1. 애니메이션을 일시정지 2. 세밀한 위치 업데이트에서 대략적인 위치 업데이트로 전환 3. 부가적인 큰 정보들 DB에 저장
 
@@ -256,5 +256,5 @@ onPause()와 onStop()이 호출되지 않을 수도 있다는 것이 이런 경�
 
 ## Reference
 [[Android(안드로이드) 앱 개발 기초] Activity 라이프사이클 공부](https://unikys.tistory.com/276)  
-[안드로이드 액티비티(Activity) 생명주기 총정리](https://programmingfbf7290.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0Activity-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+[안드로이드 액티비티(Activity) 생명주기 총정리](https://programmingfbf7290.tistory.com/entry/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EC%95%A1%ED%8B%B0%EB%B9%84%ED%8B%B0Activity-%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0-%EC%B4%9D%EC%A0%95%EB%A6%AC)  
 [[Android] Activity와 Fregment의 생명주기](https://re-build.tistory.com/4)
